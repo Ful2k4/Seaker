@@ -1,0 +1,104 @@
+body{
+	padding: 0;	
+	margin: 0;
+}
+.Footer{
+	font-family: utm-aptima !important;
+	font-size: .7rem !important;
+}
+.Footer ul{
+	white-space: nowrap !important;
+	font-family: utm-aptima !important;
+	text-align: left !important;
+	padding-top: 1rem;
+	list-style: none;
+	color: white;
+	font-size: .7rem;
+}
+.Footer a{
+	text-decoration: none !important;
+	color: #afafaf !important;	
+}
+.b-nav a:hover{
+	transition: 0.8s;
+	color:white !important;
+}
+
+#button-group a{
+	color: black !important;
+}
+#button-group a:hover{
+	background: yellow !important;
+}
+.Footer .btn-color{
+	font-family: utm-aptima !important;
+	background: #f0eb8d !important;
+	color: black !important;
+}
+.Footer h1{
+	font-family: lostar;
+	color: #f0eb8d !important;
+}
+.pl-2{
+	padding-left: .5rem;
+}
+.border-bottom{
+	border-bottom: 1px solid grey !important;
+}
+.global{
+	background: black !important;
+}
+.font-size{
+	font-size: .7rem;
+}
+.Icon a{
+	color: black !important;
+	background: #f0eb8d !important;
+	width: 1.7rem;
+}
+.Icon a:hover{
+	transition: 0.8s;
+	background: yellow !important;
+}
+.Footer p{
+	font-weight: bold;
+	color: rgb(225, 225, 225 , 0.9);
+}
+.Footer span{
+	font-weight: bold;
+	color: rgb(225, 225, 225 , 0.9);
+}
+@media (max-width: 576px) {
+	.Footer ul{
+		font-size: .61rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.Footer ul{
+		font-size: .63rem;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.Footer ul{
+		font-size: .67rem;
+	}
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.Footer ul{
+		font-size: .7rem;
+	}
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	.Footer ul{
+		font-size: .73rem;
+	}
+}

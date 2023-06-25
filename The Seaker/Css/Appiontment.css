@@ -1,0 +1,143 @@
+#Appointment{
+	background: black !important;
+}
+#Appointment .form-select{
+	background:white url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+#bg-image1{
+	background: black;
+	padding-top: 7rem !important;
+	padding-bottom: 7rem !important;
+}
+#Appointment h1{
+	letter-spacing: 0.2rem !important;
+	font-family: lostar !important;
+	color: #f0eb8d !important;
+	white-space: nowrap;
+}
+
+#Appointment{
+	font-family: utm-aptima !important;
+}
+#Appointment h1{
+	letter-spacing: 0.2rem;
+	font-family: lostar !important;
+	color: #f0eb8d !important;
+	white-space: nowrap;
+}
+#Appointment p{
+	color: #F0EB8D !important;
+	letter-spacing: 0.1rem;
+	font-family: utm-aptima !important;
+	font-size: 0.7rem;
+	opacity: 0.8;
+}
+#Appointment label{
+	font-weight: bold;
+	color: #F0EB8D !important;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+}
+#Appointment #Bottom{
+	background: black;
+}
+#Appointment .input-change{
+	letter-spacing: 0.1rem;
+	font-size: 0.7rem;
+	font-weight: bold !important;
+	font-family: utm-aptima !important;
+	background: transparent;
+	color: gray; !important;
+	border: 1px solid transparent !important;
+	border-bottom: 1px solid snow !important;
+}
+#Appointment .input-change::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:  gray !important;
+}
+#Appointment input{
+	color: white !important;
+	outline: none;
+	font-family: utm-aptima !important;
+}
+#Appointment input:focus{
+	border-bottom: 1px solid #f0eb8d !important;
+}
+#Appointment input::placeholder{
+	font-family: utm-aptima !important;
+	letter-spacing: 0.1rem;
+	font-size: 0.7rem;
+	font-weight: bold;
+	color: gray;
+	opacity: 1 !important;
+}
+#Appointment select{
+	outline: none !important;
+	border-radius: 0 !important;
+	font-family: utm-aptima !important;
+}
+#Appointment select:focus{
+	border-bottom: 1px solid #f0eb8d !important;
+}
+#Appointment select::placeholder{
+	font-family: utm-aptima !important;
+	letter-spacing: 0.1rem;
+	font-size: 0.7rem;
+	font-weight: bold;
+	color: gray !important;
+	opacity: 1 !important;
+}
+#Appointment option{
+	font-family: utm-aptima !important;
+}
+#Appointment .placeholder1{
+	color:gray !important;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	font-family: utm-aptima !important;
+	opacity: 1 !important;
+}
+.eyes-check{
+	width: 16% !important; 
+	height: 70% !important;
+}
+#Appointment input[type=submit]{
+	color: black !important;
+	background: #F0EB8D !important;
+	border: 1px solid transparent;
+}
+/* Medium devices (mobile, 576px and up)*/
+@media (max-width: 576px) {
+	.eyes-check{
+		width: 34% !important; 
+		height: 54% !important;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.eyes-check{
+		width:	20% !important; 
+		height: 64% !important;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.eyes-check{
+		width: 18% !important; 
+		height: 67% !important;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.eyes-check{
+		width: 16% !important; 
+		height: 70% !important;
+	}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	
+}

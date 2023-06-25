@@ -1,0 +1,87 @@
+#bg-image1{
+	background: black;
+	padding-top: 7rem !important;
+	padding-bottom: 7rem !important;
+}
+#Courses{
+	color: snow !important;
+	font-family: utm-aptima !important;
+	background: black;
+}
+#Courses p{
+	color: #FFFFFF !important;
+	font-weight: bold !important;
+	font-size: 0.7rem;
+}
+#Courses h1{
+	letter-spacing: 0.2rem;
+	font-family: lostar !important;
+	color: #f0eb8d !important;
+	white-space: nowrap;
+}
+#Courses .image-check{
+	background: yellow !important;
+	width: 15rem;
+	height: 10rem;
+	border-radius: 0.5rem;
+}
+#Courses #Title h1{
+	font-weight: bold;
+	font-family: utm-aptima !important;
+	font-size: 1.7rem;
+}
+#border-box h1{
+	font-weight: bold;
+	font-family: utm-aptima !important;
+	font-size: 1.4rem;
+}
+#border-box a{
+	font-size: 0.9rem;
+	text-decoration: none;
+	color: #f0eb8d !important;
+}
+#border-box i{
+	color: #f0eb8d !important;
+}
+#border-box .frame{
+	border:1px solid #f0eb8d !important;
+}
+#border-box .Box-Text-Title{
+	font-weight: normal !important;
+	font-size: 0.78rem;
+	color: #f0eb8d !important;
+}
+#border-box .Box-Text-Content{
+	font-weight: normal !important;
+	font-size: 0.68rem;
+}
+#border-box .margin-content{
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+#border-box .height{
+	height: 25rem;
+}
+#border-box .mt-sp{
+	margin-top: auto;
+}
+/* Medium devices (mobile, 576px and up)*/
+@media (max-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	
+}

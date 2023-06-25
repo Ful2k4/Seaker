@@ -1,0 +1,79 @@
+#bg-image1{
+	background: black;
+	padding-top: 7rem !important;
+	padding-bottom: 7rem !important;
+}
+#Contact{
+	font-family: utm-aptima !important;
+}
+#Contact h1{
+	letter-spacing: 0.2rem;
+	font-family: lostar !important;
+	color: #f0eb8d !important;
+	white-space: nowrap;
+}
+#Contact p{
+	color: #F0EB8D !important;
+	letter-spacing: 0.1rem;
+	font-family: utm-aptima !important;
+	font-size: 0.7rem;
+	opacity: 0.8;
+}
+#Contact label{
+	font-weight: bold;
+	color: #F0EB8D !important;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+}
+#Contact #Bottom{
+	background: black;
+}
+#Contact .input-change{
+	background: transparent;
+	color: white !important;
+	border: 1px solid snow !important;
+	border-radius: 0.5rem;
+}
+#Contact input{
+	color: white !important;
+	outline: none;
+	font-family: utm-aptima !important;
+}
+#Contact input:focus{
+	border: 1px solid #f0eb8d !important;
+}
+#Contact input::placeholder{
+	font-family: utm-aptima !important;
+	letter-spacing: 0.1rem;
+	font-size: 0.7rem;
+	opacity: 1 !important;
+}
+.eyes-check{
+	width: 16% !important; 
+	height: 70% !important;
+}
+#Contact input[type=submit]{
+	color: black !important;
+	background: #F0EB8D !important;
+	border: 1px solid transparent;
+}
+/* Medium devices (mobile, 576px and up)*/
+@media (max-width: 576px) {	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	
+}

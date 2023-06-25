@@ -1,0 +1,14 @@
+@font-face{
+	font-family: utm-aptima;
+	src: url("../fonts/utm-aptima/UTMaptima.woff") format("woff");
+	src: url("../fonts/utm-aptima/UTMaptima.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+}
+@font-face{
+    font-family: lostar;
+    src: url("../fonts/lostar/lostar-webfont.woff") format("woff");
+    src: url("../fonts/lostar/lostar-webfont.woff2") format("woff2");
+     font-weight: normal;
+     font-style: normal;
+}
