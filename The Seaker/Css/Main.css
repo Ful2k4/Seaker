@@ -1,0 +1,676 @@
+@font-face{
+    font-family:"utm-aptima";
+    src:url("../Font/Aptima.woff")
+}
+@font-face{
+    font-family:"Lostar";
+    src:url('../Font/Lostar/lostar-webfront.woff') format('woff');
+    src: url('../Font/Lostar/lostar-webfront.woff2') format('woff2');
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0;
+	background: black;
+	color: white;
+	font-size: 16px;
+	font-family: fantasy;
+}
+p{
+	font-family: fantasy;
+}
+h1{
+	font-family: Lostar;
+}
+.Button{
+	font-family: fantasy;
+}
+ul{
+	font-family: fantasy;
+}
+.default-font-size{
+	font-size: 10px;
+}
+.Bold{
+	font-weight: bold;
+}
+.font-azu{
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.Title-small{
+	font-size: 16px;
+}
+.Bolder{
+	font-weight: bolder;
+}
+.Flex-Box{
+	display: flex;
+}
+.MarTop{
+	margin-top: 5em;
+}
+.Aligin{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.Aligin-Left{
+	align-items: center;
+	justify-content: flex-start;
+}
+.Aligin-Right{
+	align-items: baseline;
+	justify-content: flex-end;
+}
+.FlexNotCol{
+	flex-direction: unset;
+}
+.devider{
+	width: 100%;
+	height: 5em;
+}
+.Container{
+	font-family: utm-aptima;
+	width: 100%;
+}
+.Container-5{
+	width: 50%;
+}
+.Frame-1{
+	width: 10%;
+}
+.Frame-2{
+	width: 20%;
+}
+.Frame-3{
+	width: 30%;
+}
+.Frame-4{
+	width: 40%;
+}
+.fifty{
+	width: 50%;
+}
+.Frame-6{
+	width: 60%;
+}
+.Frame-7{
+	width: 70%;
+}
+.Frame-8{
+	width: 80%;
+}
+.Frame-9{
+	width: 90%;
+}	
+.Frame{
+	width: 100%;
+}
+.CardFront img{
+}
+.MainHeader{	
+	display: flex;
+	flex-direction: column;
+	height: 40em;
+}
+.NavBar{
+	font-size: 12px;
+	display: flex;
+}
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	float: left;
+}
+li{
+	padding: 1em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+.right{
+	margin-left: auto;
+}
+.Button{
+	vertical-align: middle;
+	line-height: 100%;
+	letter-spacing: 2px;
+	color: black;
+	padding: 14px;
+	border-radius: 5px;
+	background: #fffdaf;
+	pointer-events: auto;
+}
+.Button:hover{
+	background: #fdfa72;
+}
+.NoWarp{
+	white-space: nowrap;
+}
+.Title{
+	color: #fffdaf;
+	font-size: 2em;
+	padding: 0;
+}
+.Product p{
+	margin-top: 1em;
+}
+.Icons{
+	display: flex;
+}
+.Icon{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+p{
+	margin: 0;
+	font-size: 0.8em;
+	color: white;
+	letter-spacing: 2px;
+}
+h1{
+	margin: 0;
+	margin-top: 2em;
+	letter-spacing: 3px;
+}
+.CarDrawer{
+	display: flex;
+}
+.DrawCard{
+	display: flex;
+}
+.Cards{
+	padding-top: 4em;
+	display: flex;
+}
+.Card{
+	position: relative;
+	pointer-events: auto;
+	margin: auto;
+	width: 16%;
+	height: 25em;
+	border: 5px solid #fffdaf;
+	border-radius: 1em;
+	background: black;
+}
+.CardFront{
+	background: #fffdaf;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.CardBack{
+	position: absolute;
+	visibility: hidden;
+}
+.MainBody{
+	display: flex;
+	flex-direction: column;
+}
+.Intro{
+	display: flex;
+}
+.Intros{
+	display: flex;
+}
+.Image{
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+.Box{
+	display: flex;
+	position: relative;
+}
+.Images{
+	width: 100%;
+	height: 25em;
+	background: yellow;
+	border-radius: 50% 50% 0 0;
+}
+.ImageFrame{
+	top: 1.3em;
+	left: 1.3em;
+	position: absolute;
+	width: 100%;
+	height: 25em;
+	border: 2px solid #fffdaf;
+	border-radius: 50% 50% 0 0;
+}
+.Text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+}
+.Text h1{
+	margin-top: 3em;
+	font-size: 2em;
+}
+.Text p{
+	margin-left: 0;
+	width: 60%;
+	word-break:break-word;
+	font-size: 0.5em;
+	color: white;
+	margin-bottom: 5em;
+}
+.Text a{
+	letter-spacing: 2px;
+	font-size: 10px;
+}
+.margin{
+	margin: auto;
+	margin-bottom: 0.9em;
+}
+.Service{
+	display: flex;
+	margin-top: 5em;
+	flex-direction: column;
+}
+.Services{
+	overflow: hidden;
+	font-size: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.Services .Title h1{
+	font-size: 2em;
+}
+.InnerService{
+	display: flex;
+	justify-content: space-between;
+}
+.rights{
+	background: rgb(0, 0, 0 ,0.6);
+	width: 10%;
+	display: flex;
+	margin-left: auto;
+}
+i{
+	font-size: 4em;
+	text-shadow: 1px 1px rgb(0, 0, 0 , 0.5);
+}
+.lefts{
+	background: rgb(0, 0, 0 ,0.6);
+	width: 10%;
+	display: flex;
+	float: left;
+	margin-right: auto;
+}
+.color{
+	color: black;
+	background: #fffdaf;
+	border-radius: 50%;
+}
+.color:hover{
+	background: blueviolet;
+	color: white;
+	transition: 0.6s;
+}
+.padding{
+	width: 1em;
+	height: 1em;
+	padding: 0.5rem;
+}
+.background-fading{
+	background: rgb(0, 0, 0 ,1);
+}
+.ServiceBox{
+	overflow: hidden;
+	width: 75%;
+	display: flex;
+}
+.Product{
+	display: flex;
+	margin: 20px;
+	padding: 2em;
+	flex-direction: column;
+}
+.Box{
+
+}
+.Imaged{
+	width: 20em;
+	height: 15em;
+	background: #fffdaf;
+}
+.section{
+	display: flex;
+}
+.Dot{
+	list-style: none;
+	display: flex;
+}
+.ShadowBox{
+	box-shadow: 20px 0px 30px 90px black;
+	opacity: 0.6;
+}
+.dot{
+	margin-top: 1em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	width: 1.4em;
+	height: 1.4em;
+	background: gray;
+	opacity: 0.6;
+	border-radius: 50%;
+}
+.dot:hover{
+	background: lightgray;
+}
+.Product .Title{
+	font-size: 2.8em;
+}
+.Content{
+	font-size: 1em;
+	display: flex;
+}
+.Product a{
+	margin-top: 2em;
+	padding: 10px;
+}
+.Zodiact{
+	font-size: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.top{
+	display: flex;
+}
+.bottom{
+	display: flex;
+}
+.box{
+	justify-content: center;
+	align-items: center;
+	margin:3%;
+	flex-direction: column;
+	display: flex;
+	width: 20%;
+}
+.box .Image{
+	width: 13em;
+	height: 13em;
+	background: yellow;
+}
+.box .Title{
+	letter-spacing: 2px;
+	margin-top: 0.5em;
+	font-size: 25px;
+}
+.content{
+	margin-top: 0;
+	font-size: 10px;
+	letter-spacing: 2px;
+}
+.Feedback{
+	font-size: 10px;
+	display: flex;
+}
+.FlexCol{
+	flex-direction: column;
+}
+.Feedback .Title{
+	display: flex;
+}
+.Client{
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+	width: 60%	;
+	display: flex;
+}
+.Client .Box{
+	padding: 2em;
+	position: relative;
+	width: 17em;
+	height: 17em;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.Client .Content{
+	background: white;
+	border-radius: 5%;
+}
+.Box .avatar{
+	top: -3em;
+	left: 1;
+	z-index: 2;
+	width: 8em;
+	height: 8em;
+	border-radius: 50%;
+	position: absolute;
+}
+.Content p{
+	color: black;
+}
+.avatar img{
+	top: 0;
+	left: 0;
+	z-index: 3;
+	background: #fffdaf;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #fffdaf;
+	border-radius: 50%;
+}
+.Live{
+	display: flex;
+	font-size: 10px;
+}
+.LiveStream{
+	padding: 1em;
+	border-radius: 5%;
+	margin-left: 4em;
+	margin-right: 4em;
+	background: white;
+	display: flex;
+	height: 24em;
+	flex-direction: column;
+}
+.unset-border{
+	border: 1px solid transparent;
+}
+.avatar-small{
+	display: flex;
+}
+.avatar-small p{
+	margin-left: 1em;
+}
+.avatar-small img{
+	background: lightgray;
+	border-radius: 50%;
+	padding: 0.7em;
+}
+.LiveStream .Image{
+	border-radius: 4%;
+	background: lightgray;
+	height: 100%;
+	width: 100%;
+}
+.LiveStream p{
+	letter-spacing: 0px;
+	text-align: left;
+}
+.LiveStatus{
+	padding: 0.2em;
+	border-radius: 2em 2em 2em 2em;
+}
+.LiveStatus p{
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	color: white;
+}
+.False{
+	background: rgb(255 ,0 ,0);
+}
+.False:hover{
+	background: rgb(196, 0, 10);
+	transition: 0.5s;
+}
+.LiveIcon{
+	padding: 3%;
+	border-radius: 50%;
+	border: 1.5px solid snow;
+	margin-left: 0.06em;
+}
+.LiveIconInner{
+	padding: 2px;
+	border-radius: 50%;
+	background: white;
+}
+.flex-space{
+	justify-content: space-between;
+}
+.LiveStream .content{
+	color: grey;
+	font-size: 0.8em;
+}
+.margin-2{
+	margin-left: 0.5em;
+	height: 70%;
+}
+.martop-small{
+	margin-top: 1em;
+}
+.martop-small-1{
+	margin-top: 0.5em;
+}
+.text-align-left{
+	text-align: left;
+}
+.Radius{
+	border-radius: 8%;
+}
+.True{
+	background: green;
+}
+.True:hover{
+	background: darkgreen;
+}
+.Contact{
+	padding-top: 5em;
+	padding-bottom: 5em;
+	background: rgba(240,235,141,255);
+}
+.Contact h1{
+	margin-top: 0px;
+}
+.Contact .Title{
+	color: black !important;
+}
+.Contact p{
+	color: black !important;
+}
+.input{
+	padding: 1em;
+}
+input{
+	margin:auto;
+	border: 2px solid gray;
+	outline: none;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+	transition: border 0.4s;
+}
+input[type=text]:focus{
+	border: 2px solid black;
+}
+.Contact .Button{
+	padding-left: 4em;
+	padding-right: 4em;
+	background: snow;
+	transition: 0.6s;
+}
+.Contact .Button:hover{
+	background: black;
+	color: white;
+}
+.red{
+	background: red;
+}
+.blue{
+	background: blue;
+}
+.green{
+	background: green;
+}
+.martop-none{
+	margin-top: 0px;
+}
+.SumUp .Title{
+	font-size: 1.4em;
+}
+.outline-down{
+	border-bottom: 1px solid gray;
+}
+.SumUp h1{
+
+}
+.SumUp ul{
+	text-align: left;
+	display: block;
+	white-space: nowrap;
+}
+.SumUp .Title-small{
+	font-size: 0.9em;
+}
+.SumUp li{
+	font-size: 0.7em;
+	margin: 0px;
+	margin-top: 0.6em;
+	padding: 0;
+}
+.SumUp a{
+	color: rgba(109,109,109,255);
+	transition: 0.8s;
+}
+.SumUp a:hover{
+	color: lightgray;
+}
+.padding-all{
+	padding: 2rem;
+}
+.height-10{
+	height: 10em;
+}
+.margin-left{
+	margin-left: 2em;
+}
+.SumUp .Button{
+	color: black;
+	padding: 0.4em;
+}
+.SumUp .Button:hover{
+	color: black;
+}
+.martop-small-3{
+	margin-top: 3em;
+}
+.Iconed{
+	background: #fffdaf;
+	color: black;
+	width: 1em;
+	border-radius: 50%;
+	font-size: 15px;
+}
+.padding-1em{
+	padding: 1em;
+}
+.SumDown{
+	white-space: nowrap;
+}
+.SumDown a{
+	align-items: center;
+}
+.Iconed:hover{
+	background: white;
+}
